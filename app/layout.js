@@ -17,11 +17,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="drawer drawer-end">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content flex flex-col">
+          <div className="drawer-content">
             <Navbar />
-            <div className="flex min-h-screen flex-col items-center justify-between p-24">
-              {children}
-            </div>
+            <div className="p-24 bg-cyan-700">{children}</div>
           </div>
           <div className="drawer-side">
             <label
