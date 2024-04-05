@@ -1,11 +1,7 @@
 import ProjectCardList from "./ProjectCardList";
 
 const ProjectCards = () => {
-  return (
-    <div>
-      <ProjectCardList />
-    </div>
-  );
+  return <ProjectCardList />;
 };
 
 export default ProjectCards;
