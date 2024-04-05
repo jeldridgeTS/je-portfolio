@@ -9,7 +9,7 @@ export default function NavLinks() {
         </Link>
       </li>
       <li>
-        <Link href="aboutme" className="">
+        <Link href="aboutme" className="btn btn-primary">
           About Me
         </Link>
       </li>
