@@ -1,3 +1,5 @@
+import ProjectCards from "../_components/projectCards";
+
 export default function Projects() {
-  return <div>Projects</div>;
+  return <ProjectCards />;
 }

@@ -2,7 +2,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-center px-4 py-4">
+    <nav className="flex justify-center px-4 py-4 ">
       <div className="w-full navbar bg-base-300">
         <div className="flex-1 px-2 mx-2">James Eldridge</div>
         <div className="flex-none hidden lg:block">
