@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar {
+  @apply p-0;
+  @apply min-h-20;
+}
+
+.navLinksDivWrap {
+  background-color: blueviolet;
+  pointer-events: none;
+}
+
+.navLinksDivWrap button {
+  pointer-events: auto;
+}
+
+.navLinksDivWrap:hover {
+  background-color: cadetblue;
+}
+
+.navLinksButton {
+  width: 120px;
+}
