@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ProjectCard = () => {
   return (
-    <div className="card lg:card-side bg-base-100 shadow-xl">
+    <div className="card lg:card-side bg-slate-700 shadow-xl">
       <figure>
         <Image
           src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"

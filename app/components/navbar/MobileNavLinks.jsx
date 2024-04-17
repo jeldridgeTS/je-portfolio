@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function MobileNavLinks() {
+const MobileNavLinks = () => {
   const handleClick = () => {
     document.getElementById("my-drawer-3").click();
   };
@@ -21,4 +21,6 @@ export default function MobileNavLinks() {
       </li>
     </>
   );
-}
+};
+
+export default MobileNavLinks;
