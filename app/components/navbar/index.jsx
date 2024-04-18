@@ -1,6 +1,7 @@
 import Link from "next/link";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLinks from "./NavLinks";
+import NameButton from "./NameButton";
 
 const Navbar = () => {
   return (
@@ -10,18 +11,7 @@ const Navbar = () => {
         <nav className="flex justify-center">
           <div className="w-full navbar bg-cyan-950">
             <div className="flex-1 lg:pl-24 h-full">
-              <Link
-                href="projects"
-                className="
-                btn
-                btn-primary
-                rounded-none
-                border-none
-                h-full
-              "
-              >
-                James Eldridge
-              </Link>
+              <NameButton />
             </div>
             <div className="flex-none hidden lg:block h-full pr-24">
               <NavLinks />
