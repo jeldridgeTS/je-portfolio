@@ -1,11 +1,12 @@
-import Link from "next/link";
 import { useState } from "react";
+import NavLink from "./NavLink";
 
 const ProjectsButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
+    console.log("MOO");
   };
 
   const handleMouseLeave = () => {
@@ -13,19 +14,9 @@ const ProjectsButton = () => {
   };
 
   return (
-    <Link
-      href="projects"
-      className="
-        btn
-        btn-primary
-        rounded-none
-        border-none
-        self-center
-        h-full
-        navLinksButton"
-    >
+    <NavLink onMouseOver={handleMouseEnter} href="projects">
       Projects
-    </Link>
+    </NavLink>
   );
 };
 

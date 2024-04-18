@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { useState } from "react";
+import NavLink from "./NavLink";
 
 const AboutMeButton = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -12,21 +12,7 @@ const AboutMeButton = () => {
     setIsHovered(false);
   };
 
-  return (
-    <Link
-      href="aboutme"
-      className="
-        btn
-        btn-primary
-        rounded-none
-        border-none
-        self-center
-        h-full
-        navLinksButton"
-    >
-      About Me
-    </Link>
-  );
+  return <NavLink href="aboutme">About Me</NavLink>;
 };
 
 export default AboutMeButton;

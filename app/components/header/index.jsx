@@ -1,9 +1,8 @@
-import Link from "next/link";
-import MobileNavLinks from "./MobileNavLinks";
-import NavLinks from "./NavLinks";
+import MobileNavBarLinks from "./MobileNavBarLinks";
+import NavBarLinks from "./NavBarLinks";
 import NameButton from "./NameButton";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div className="drawer drawer-end">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -14,7 +13,7 @@ const Navbar = () => {
               <NameButton />
             </div>
             <div className="flex-none hidden lg:block h-full pr-24">
-              <NavLinks />
+              <NavBarLinks />
             </div>
             <div className="flex-none lg:hidden">
               <label
@@ -40,18 +39,18 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side z-10">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
         <ul className="menu p-4 w-80 min-h-full bg-base-200 space-y-4">
-          <MobileNavLinks />
+          <MobileNavBarLinks />
         </ul>
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default Header;
