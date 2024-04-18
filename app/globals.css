@@ -7,6 +7,11 @@
   @apply min-h-20;
 }
 
+.nameButton {
+  font: 16px Arial;
+  color: white;
+}
+
 .navLinksButton {
   width: 120px;
   font: 16px Arial;
@@ -15,7 +20,7 @@
 
   background: linear-gradient(to bottom, salmon 50%, lightblue 50%) top;
   background-size: 100% 200%;
-  transition: 0.1s ease-out;
+  transition: 0.15s ease-out;
 }
 
 .navLinksButton:hover {
