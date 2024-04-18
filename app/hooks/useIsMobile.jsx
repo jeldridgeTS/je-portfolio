@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const useIsMobile = () => {
-  console.log("IN HOOK");
   const [width, setWidth] = useState(window.innerWidth);
   const handleWindowSizeChange = () => {
     setWidth(window.innerWidth);

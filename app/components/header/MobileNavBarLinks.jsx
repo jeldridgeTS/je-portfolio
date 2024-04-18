@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-import NavLink from "./NavLink";
 import ProjectsButton from "./ProjectsButton";
 import AboutMeButton from "./AboutMeButton";
 import ExperienceButton from "./ExperienceButton";
