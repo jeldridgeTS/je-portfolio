@@ -7,19 +7,17 @@
   @apply min-h-20;
 }
 
-.navLinksDivWrap {
-  background-color: blueviolet;
-  pointer-events: none;
-}
-
-.navLinksDivWrap button {
-  pointer-events: auto;
-}
-
-.navLinksDivWrap:hover {
-  background-color: cadetblue;
-}
-
 .navLinksButton {
   width: 120px;
+  font: 16px Arial;
+  color: white;
+  background: red;
+
+  background: linear-gradient(to bottom, salmon 50%, lightblue 50%) top;
+  background-size: 100% 200%;
+  transition: 0.1s ease-out;
+}
+
+.navLinksButton:hover {
+  background-position: bottom;
 }
