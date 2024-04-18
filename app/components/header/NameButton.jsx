@@ -10,6 +10,7 @@ const NameButton = () => {
         rounded-none
         border-none
         h-full
+        nameButton
       "
     >
       James Eldridge
