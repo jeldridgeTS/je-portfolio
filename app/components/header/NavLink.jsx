@@ -6,7 +6,7 @@ export default function NavLink({ children, ...props }) {
   console.log("isMobile:", isMobile);
 
   const desktopClasses =
-    "btn btn-active btn-primary rounded-none border-none self-center h-full navLinksButton";
+    "btn btn-active btn-primary rounded-none border-none self-center h-full navLinksButton no-animation";
   const mobileClasses = "btn btn-secondary";
 
   const classes = isMobile ? mobileClasses : desktopClasses;
