@@ -1,4 +1,3 @@
-import Link from "next/link";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLinks from "./NavLinks";
 import NameButton from "./NameButton";
