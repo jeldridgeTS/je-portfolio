@@ -6,6 +6,7 @@ import ExperienceButton from "./ExperienceButton";
 
 const MobileNavBarLinks = () => {
   const handleClick = () => {
+    console.log("CLICKED");
     document.getElementById("my-drawer-3").click();
   };
 
@@ -15,10 +16,10 @@ const MobileNavBarLinks = () => {
         <ExperienceButton onClick={handleClick} />
       </li>
       <li>
-        <ProjectsButton onClick={handleClick}>Projects</ProjectsButton>
+        <ProjectsButton onClick={handleClick} />
       </li>
       <li>
-        <AboutMeButton onClick={handleClick}>About Me</AboutMeButton>
+        <AboutMeButton onClick={handleClick} />
       </li>
     </>
   );

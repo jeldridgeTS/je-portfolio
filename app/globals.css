@@ -5,19 +5,24 @@
 .navbar {
   @apply p-0;
   @apply min-h-20;
+  background-color: salmon;
+}
+
+.contentBg {
+  background-color: cornsilk;
 }
 
 .nameButton {
   font: 16px Arial;
   color: white;
+  background-color: salmon;
 }
 
 .navLinksButton {
   width: 120px;
   font: 16px Arial;
   color: white;
-  background: red;
-
+  background: salmon;
   background: linear-gradient(to bottom, salmon 50%, lightblue 50%) top;
   background-size: 100% 200%;
   transition: 0.15s ease-out;

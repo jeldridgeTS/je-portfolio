@@ -5,8 +5,10 @@ const ExperienceButton = ({ ...props }) => {
     console.log("MOO COW");
   };
 
+  console.log(props);
+
   return (
-    <NavLink onClick={mooCow} href="projects">
+    <NavLink {...props} href="projects">
       Experience
     </NavLink>
   );

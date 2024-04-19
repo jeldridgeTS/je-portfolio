@@ -1,21 +1,7 @@
-import Link from "next/link";
+import NavLink from "./NavLink";
 
 const NameButton = () => {
-  return (
-    <Link
-      href="projects"
-      className="
-        btn
-        btn-primary
-        rounded-none
-        border-none
-        h-full
-        nameButton
-      "
-    >
-      James Eldridge
-    </Link>
-  );
+  return <NavLink href="/">James Eldridge</NavLink>;
 };
 
 export default NameButton;

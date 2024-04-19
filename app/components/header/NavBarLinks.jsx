@@ -1,5 +1,3 @@
-"use client";
-
 import ProjectsButton from "./ProjectsButton";
 import AboutMeButton from "./AboutMeButton";
 import ExperienceButton from "./ExperienceButton";
