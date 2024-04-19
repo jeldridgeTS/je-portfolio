@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavLink from "./NavLink";
 
-const AboutMeButton = () => {
+const AboutMeButton = ({ ...props }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -12,7 +12,11 @@ const AboutMeButton = () => {
     setIsHovered(false);
   };
 
-  return <NavLink href="aboutme">About Me</NavLink>;
+  return (
+    <NavLink {...props} href="aboutme">
+      About Me
+    </NavLink>
+  );
 };
 
 export default AboutMeButton;
