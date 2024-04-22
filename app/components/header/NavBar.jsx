@@ -5,7 +5,7 @@ import NavBarLinks from "./NavBarLinks";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-center">
+    <nav className="nav flex justify-center px-36">
       <div className="w-full navbar">
         <div className="flex-1 lg:pl-24 h-full">
           <NameButton />
