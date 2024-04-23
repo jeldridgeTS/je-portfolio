@@ -1,16 +1,16 @@
 "use client";
 
-import NameButton from "./NameButton";
+import NameButton from "@components/buttons/NameButton";
 import NavBarLinks from "./NavBarLinks";
 
 export default function NavBar() {
   return (
-    <nav className="nav flex justify-center px-36">
+    <nav className="nav flex justify-center pt-6">
       <div className="w-full navbar">
-        <div className="flex-1 lg:pl-24 h-full">
+        <div className="flex-1 h-full pl-12">
           <NameButton />
         </div>
-        <div className="flex-none hidden lg:block h-full pr-24">
+        <div className="flex-none hidden lg:block px-4">
           <NavBarLinks />
         </div>
         <div className="flex-none lg:hidden">
