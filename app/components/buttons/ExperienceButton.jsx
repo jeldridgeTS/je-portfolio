@@ -1,4 +1,4 @@
-import NavLink from "./NavLink";
+import NavButton from "./NavButton";
 
 const ExperienceButton = ({ ...props }) => {
   const mooCow = () => {
@@ -8,9 +8,9 @@ const ExperienceButton = ({ ...props }) => {
   console.log(props);
 
   return (
-    <NavLink {...props} href="projects">
+    <NavButton {...props} href="projects">
       Experience
-    </NavLink>
+    </NavButton>
   );
 };
 

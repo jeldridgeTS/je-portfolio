@@ -1,5 +1,5 @@
 import { useState } from "react";
-import NavLink from "./NavLink";
+import NavButton from "./NavButton";
 
 const AboutMeButton = ({ ...props }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -13,9 +13,9 @@ const AboutMeButton = ({ ...props }) => {
   };
 
   return (
-    <NavLink {...props} href="aboutme">
+    <NavButton {...props} href="aboutme">
       About Me
-    </NavLink>
+    </NavButton>
   );
 };
 

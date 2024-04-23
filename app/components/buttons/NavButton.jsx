@@ -1,9 +1,8 @@
 import Link from "next/link";
 import useIsMobile from "@hooks/useIsMobile";
 
-export default function NavLink({ children, ...props }) {
+export default function NavButton({ children, ...props }) {
   const isMobile = useIsMobile();
-  console.log("isMobile:", isMobile);
 
   const desktopClasses =
     "btn btn-active btn-primary rounded-none border-none self-center h-full navLinksButton no-animation shadow-none";

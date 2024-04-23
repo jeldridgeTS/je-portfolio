@@ -1,8 +1,8 @@
 "use client";
 
-import ProjectsButton from "./ProjectsButton";
-import AboutMeButton from "./AboutMeButton";
-import ExperienceButton from "./ExperienceButton";
+import ProjectsButton from "@components/buttons/ProjectsButton";
+import AboutMeButton from "@components/buttons/AboutMeButton";
+import ExperienceButton from "@components/buttons/ExperienceButton";
 
 const MobileNavBarLinks = () => {
   const handleClick = () => {

@@ -2,10 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav {
+  background-color: cornsilk;
+}
+
 .navbar {
   @apply p-0;
   @apply min-h-20;
-  background-color: salmon;
+}
+
+.card-body {
+  @apply px-0;
+  @apply pb-0;
+}
+
+.profileContainer {
+  text-align: -webkit-center;
 }
 
 .contentBg {
@@ -31,3 +43,9 @@
 .navLinksButton:hover {
   background-position: bottom;
 }
+
+/* Stars */
+/* <a href="https://www.flaticon.com/free-icons/customer-experience" title="customer experience icons">Customer experience icons created by Hilmy Abiyyu A. - Flaticon</a> */
+
+/* XP */
+/* <a href="https://www.flaticon.com/free-icons/experience" title="experience icons">Experience icons created by Smashicons - Flaticon</a> */
