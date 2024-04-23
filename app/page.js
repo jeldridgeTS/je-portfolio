@@ -1,7 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import LandingPageCard from "@components/landingPage/LandingPageCard";
+import LandingXpCard from "@components/landingPage/LandingXpCard";
+import LandingProjectsCard from "@components/landingPage/LandingProjectsCard";
+import LandingAboutCard from "@components/landingPage/LandingAboutCard";
 
 export default function Home() {
   return (
@@ -9,18 +11,23 @@ export default function Home() {
       <div>
         <div className="profileContainer">
           <Image
-            className="flex-none"
+            className="flex-none border-cyan-700 border-double border-8 rounded-full"
             alt="profile pic"
             src="/profPic.webp"
-            width={360}
-            height={360}
+            width={320}
+            height={320}
           />
-          <div className="text-center py-10">Stuff about me blah blah blah</div>
+          <div className="text-center pt-10 pb-2 font-bold text-lg">
+            Stuff about me blah blah blah blah blah blah
+          </div>
+          <div className="text-center pt-2 pb-12">
+            Stuff about me blah blah blah blah blah blah
+          </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-4">
-          <LandingPageCard />
-          <LandingPageCard />
-          <LandingPageCard />
+          <LandingXpCard />
+          <LandingProjectsCard />
+          <LandingAboutCard />
         </div>
       </div>
     </div>
