@@ -1,4 +1,4 @@
-import project from "/home/jeld/Development/portfolio/je-portfolio/public/project.svg";
+import project from "/public/project.svg";
 import ProjectsButton from "@components/buttons/ProjectsButton";
 import Image from "next/image";
 

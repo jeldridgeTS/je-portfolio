@@ -1,5 +1,5 @@
 import Link from "next/link";
-import dotsHoriz from "/home/jeld/Development/portfolio/je-portfolio/public/dots-horizontal.svg";
+import dots from "/public/dots-horizontal.svg";
 import Image from "next/image";
 
 export default function NavBarLinks() {
@@ -16,7 +16,7 @@ export default function NavBarLinks() {
           <Image
             role="button"
             tabIndex={0}
-            src={dotsHoriz}
+            src={dots}
             height={48}
             width={48}
             alt="github"

@@ -1,5 +1,5 @@
 import ExperienceButton from "@components/buttons/ExperienceButton";
-import xpsvg from "/home/jeld/Development/portfolio/je-portfolio/public/xp.svg";
+import xpsvg from "/public/xp.svg";
 import Image from "next/image";
 
 export default function LandingXpCard({ children, ...props }) {

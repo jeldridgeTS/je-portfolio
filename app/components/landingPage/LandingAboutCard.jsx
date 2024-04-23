@@ -1,4 +1,4 @@
-import information from "/home/jeld/Development/portfolio/je-portfolio/public/information.svg";
+import information from "/public/information.svg";
 import AboutMeButton from "@components/buttons/AboutMeButton";
 import Image from "next/image";
 
