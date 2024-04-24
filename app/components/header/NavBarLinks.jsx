@@ -11,8 +11,11 @@ export default function NavBarLinks() {
       >
         Let's Connect
       </Link>
-      <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
-        <figure className="self-center px-4 m-2">
+      <figure className="self-center px-4">
+        <div
+          className="dropdown dropdown-bottom dropdown-end"
+          style={{ display: "block" }}
+        >
           <Image
             role="button"
             tabIndex={0}
@@ -21,22 +24,22 @@ export default function NavBarLinks() {
             width={48}
             alt="github"
           />
-        </figure>
-        <ul
-          tabIndex={0}
-          className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
-        >
-          <li>
-            <Link href="/">Experience</Link>
-          </li>
-          <li>
-            <Link href="/">Projects</Link>
-          </li>
-          <li>
-            <Link href="/">About Me</Link>
-          </li>
-        </ul>
-      </div>
+          <ul
+            tabIndex={0}
+            className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 mt-3"
+          >
+            <li>
+              <Link href="/">Experience</Link>
+            </li>
+            <li>
+              <Link href="/">Projects</Link>
+            </li>
+            <li>
+              <Link href="/">About Me</Link>
+            </li>
+          </ul>
+        </div>
+      </figure>
     </div>
   );
 }

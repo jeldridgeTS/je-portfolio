@@ -2,13 +2,17 @@
 
 import NameButton from "@components/buttons/NameButton";
 import NavBarLinks from "./NavBarLinks";
+import SocialLinks from "@components/socialLinks/SocialLinks";
 
 export default function NavBar() {
   return (
     <nav className="nav flex justify-center pt-6">
-      <div className="w-full navbar">
-        <div className="flex-1 h-full pl-12">
+      <div className="w-full navbar flex-auto">
+        <div className="flex-auto h-full pl-12">
           <NameButton />
+        </div>
+        <div className="flex-1 pl-4">
+          <SocialLinks />
         </div>
         <div className="flex-none hidden lg:block px-4">
           <NavBarLinks />
