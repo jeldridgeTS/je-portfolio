@@ -32,7 +32,7 @@
 
 .navLinksButton {
   width: 120px;
-  font: 16px Arial;
+  font-size: x-large;
   color: white;
   background: salmon;
   background: linear-gradient(to bottom, salmon 50%, lightblue 50%) top;
@@ -42,6 +42,10 @@
 
 .navLinksButton:hover {
   background-position: bottom;
+}
+
+.landingPageCard {
+  background-color: salmon;
 }
 
 .wrapper {

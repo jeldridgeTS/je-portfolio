@@ -8,13 +8,13 @@ export default function NavBar() {
   return (
     <nav className="nav flex justify-center pt-6">
       <div className="w-full navbar flex-auto">
-        <div className="flex-auto h-full pl-12">
+        <div className="flex-none h-full pl-12">
           <NameButton />
         </div>
-        <div className="flex-1 pl-4">
+        <div className="flex-1 place-content-center pr-4">
           <SocialLinks />
         </div>
-        <div className="flex-none hidden lg:block px-4">
+        <div className="flex-none hidden lg:block px-5">
           <NavBarLinks />
         </div>
         <div className="flex-none lg:hidden">
