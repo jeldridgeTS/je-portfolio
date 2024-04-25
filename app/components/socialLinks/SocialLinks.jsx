@@ -5,7 +5,9 @@ export default function SocialLinks() {
   return (
     <>
       <ul className="wrapper">
-        <li
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/james-eldridge-19981b1b/"
           className="circle linkedin linkedinSvg tooltip tooltip-bottom tooltip-linkedin btn btn-primary btn-outline border-2 p-0"
           data-tip="Linked In"
           style={{ padding: "6px" }}
@@ -13,8 +15,10 @@ export default function SocialLinks() {
           <span>
             <LinkedInIcon />
           </span>
-        </li>
-        <li
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/jeldridgeTS"
           className="circle github githubSvg tooltip tooltip-bottom tooltip-github btn btn-primary btn-outline border-2 p-0"
           data-tip="Github"
           style={{ padding: "12px" }}
@@ -22,7 +26,7 @@ export default function SocialLinks() {
           <span>
             <GithubIcon />
           </span>
-        </li>
+        </a>
       </ul>
     </>
   );
