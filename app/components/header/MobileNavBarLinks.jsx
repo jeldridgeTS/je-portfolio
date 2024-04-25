@@ -11,13 +11,13 @@ const MobileNavBarLinks = () => {
 
   return (
     <>
-      <li>
+      <li className="mobileDrawerBtns">
         <ExperienceButton onClick={handleClick} />
       </li>
-      <li>
+      <li className="mobileDrawerBtns">
         <ProjectsButton onClick={handleClick} />
       </li>
-      <li>
+      <li className="mobileDrawerBtns">
         <AboutMeButton onClick={handleClick} />
       </li>
     </>

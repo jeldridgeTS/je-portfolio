@@ -63,6 +63,10 @@
   background-position: bottom;
 }
 
+.mobileDrawerBtns a {
+  padding-right: 0px;
+}
+
 .drawerBtns {
   width: -webkit-fill-available;
 }
