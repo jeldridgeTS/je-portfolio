@@ -67,6 +67,17 @@
   padding-right: 0px;
 }
 
+.dropdownContainer {
+  clip-path: border-box;
+  padding: 0px;
+}
+
+.dropdownBtns a {
+  width: 100%;
+  border-radius: 0%;
+  padding: 0px;
+}
+
 .drawerBtns {
   width: -webkit-fill-available;
 }
@@ -125,7 +136,7 @@
 }
 
 .connectBtn:hover {
-  background: lightseagreen;
+  background: #20b2aa;
   -webkit-text-fill-color: #ffffff;
 }
 
