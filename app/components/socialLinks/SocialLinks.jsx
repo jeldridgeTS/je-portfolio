@@ -8,7 +8,7 @@ export default function SocialLinks() {
         <a
           target="_blank"
           href="https://www.linkedin.com/in/james-eldridge-19981b1b/"
-          className="circle linkedin linkedinSvg tooltip tooltip-bottom tooltip-linkedin btn btn-secondary btn-outline border-2 p-0"
+          className="circle linkedin linkedinSvg tooltip tooltip-bottom tooltip-linkedin btn btn-info btn-outline border-2 p-0"
           data-tip="Linked In"
           style={{ padding: "6px" }}
         >
@@ -19,7 +19,7 @@ export default function SocialLinks() {
         <a
           target="_blank"
           href="https://github.com/jeldridgeTS"
-          className="circle github githubSvg tooltip tooltip-bottom tooltip-github btn btn-secondary btn-outline border-2 p-0"
+          className="circle github githubSvg tooltip tooltip-bottom tooltip-github btn btn-info btn-outline border-2 p-0"
           data-tip="Github"
           style={{ padding: "12px" }}
         >

@@ -14,7 +14,11 @@ const ProjectsButton = ({ ...props }) => {
   };
 
   return (
-    <NavButton {...props} onMouseOver={handleMouseEnter} href="projects">
+    <NavButton
+      {...props}
+      onMouseOver={handleMouseEnter}
+      href="https://github.com/jeldridgeTS"
+    >
       Projects
     </NavButton>
   );
