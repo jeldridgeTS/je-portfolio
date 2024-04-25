@@ -20,6 +20,10 @@
   text-align: -webkit-center;
 }
 
+.profileContainer img {
+  border-color: lightblue;
+}
+
 .contentBg {
   background-color: cornsilk;
 }
@@ -30,9 +34,24 @@
   background-color: salmon;
 }
 
+/* .borderGrad {
+  border-radius: 50%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-image: linear-gradient(
+      to right,
+      #83c59b,
+      #fcf09a,
+      red,
+      purple,
+      #71caee
+    )
+    1;
+} */
+
 .navLinksButton {
   width: 120px;
-  font: 16px Arial;
+  font-size: x-large;
   color: white;
   background: salmon;
   background: linear-gradient(to bottom, salmon 50%, lightblue 50%) top;
@@ -42,6 +61,18 @@
 
 .navLinksButton:hover {
   background-position: bottom;
+}
+
+.mobileDrawerBtns a {
+  padding-right: 0px;
+}
+
+.drawerBtns {
+  width: -webkit-fill-available;
+}
+
+.landingPageCard {
+  background-color: salmon;
 }
 
 .wrapper {
@@ -91,6 +122,11 @@
 .tooltip-github {
   --tooltip-color: #333333;
   --tooltip-text-color: #ffffff;
+}
+
+.connectBtn:hover {
+  background: lightseagreen;
+  -webkit-text-fill-color: #ffffff;
 }
 
 /* Stars */
