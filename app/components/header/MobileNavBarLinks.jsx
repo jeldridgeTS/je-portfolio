@@ -6,7 +6,6 @@ import ExperienceButton from "@components/buttons/ExperienceButton";
 
 const MobileNavBarLinks = () => {
   const handleClick = () => {
-    console.log("CLICKED");
     document.getElementById("my-drawer-3").click();
   };
 

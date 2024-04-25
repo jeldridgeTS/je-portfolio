@@ -28,7 +28,7 @@ export default function Home() {
             Stuff about me blah blah blah blah blah blah
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex flex-col items-center lg:flex-row gap-4">
           <LandingXpCard />
           <LandingProjectsCard />
           <LandingAboutCard />

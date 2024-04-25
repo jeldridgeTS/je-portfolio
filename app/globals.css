@@ -63,6 +63,10 @@
   background-position: bottom;
 }
 
+.drawerBtns {
+  width: -webkit-fill-available;
+}
+
 .landingPageCard {
   background-color: salmon;
 }
