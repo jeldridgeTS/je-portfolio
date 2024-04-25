@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export default function NavBarLinks() {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row place-content-end">
       <Link
-        className="btn btn-outline btn-primary rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
+        className="connectBtn btn btn-info btn-outline rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
         href="aboutme"
       >
-        Let's Connect
+        LET'S CONNECT
       </Link>
       <figure className="self-center px-4">
         <div

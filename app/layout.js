@@ -12,10 +12,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="lighttheme">
       <body className={cabin.className}>
         <Header />
-        <div className="px-20 pb-20 pt-28 contentBg min-h-screen w-full">
+        <div className="px-20 pb-20 pt-20 contentBg min-h-screen w-full">
           {children}
         </div>
         <Footer />

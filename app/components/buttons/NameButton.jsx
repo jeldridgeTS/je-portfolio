@@ -7,7 +7,7 @@ const classes = `text-4xl self-center no-animation ${lobster.className}`;
 
 const NameButton = () => {
   return (
-    <Link className={classes} style={{ color: "#7480ff" }} href="/">
+    <Link className={classes} style={{ color: "#fa8072" }} href="/">
       James Eldridge
     </Link>
   );

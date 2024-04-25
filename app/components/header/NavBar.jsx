@@ -11,10 +11,7 @@ export default function NavBar() {
         <div className="flex-none h-full pl-12">
           <NameButton />
         </div>
-        <div className="flex-1 place-content-center pr-4">
-          <SocialLinks />
-        </div>
-        <div className="flex-none hidden lg:block px-5">
+        <div className="flex-1 hidden lg:block pr-5 pl-4">
           <NavBarLinks />
         </div>
         <div className="flex-none lg:hidden">
