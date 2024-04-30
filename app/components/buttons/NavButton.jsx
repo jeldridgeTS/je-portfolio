@@ -7,8 +7,8 @@ const rubik = Rubik({ weight: "400", subsets: ["latin"] });
 export default function NavButton({ children, ...props }) {
   const isMobile = useIsMobile();
 
-  const desktopClasses = `btn btn-secondary text-neutral border-none self-center pr-12 h-full navLinksButton no-animation shadow-none ${rubik.className}`;
-  const mobileClasses = `btn btn-secondary text-neutral border-none self-center pr-14 h-full navLinksButton no-animation shadow-none drawerBtns ${rubik.className}`;
+  const desktopClasses = `btn btn-accent text-neutral border-none self-center pr-12 h-full navLinksButton no-animation shadow-none ${rubik.className}`;
+  const mobileClasses = `btn btn-accent text-neutral border-none self-center pr-14 h-full navLinksButton no-animation shadow-none drawerBtns ${rubik.className}`;
 
   const classes = isMobile ? mobileClasses : desktopClasses;
 

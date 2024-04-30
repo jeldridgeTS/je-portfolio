@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function LandingXpCard({ children, ...props }) {
   return (
-    <button className="rounded-lg bg-secondary flex w-56 landingPageCard h-12">
+    <button className="rounded-lg outline outline-1 outline-accent flex w-56 landingPageCard h-12">
       <figure className="self-center">
         <Image
           className="p-4"
