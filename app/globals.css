@@ -19,7 +19,7 @@
 .navLinksButton {
   width: 120px;
   font-size: x-large;
-  background: linear-gradient(to bottom, #ff5722 50%, #00adb5 50%) top;
+  background: linear-gradient(to bottom, #ffc522 50%, #00adb5 50%) top;
   background-size: 100% 200%;
   transition: 0.15s ease-out;
 }
@@ -37,20 +37,31 @@
   padding: 0px;
 }
 
+.drawerBtns {
+  width: -webkit-fill-available;
+}
+
 .dropdownBtns a {
   width: 100%;
   border-radius: 0%;
   padding: 0px;
   font-size: large;
+  color: #333333;
 }
 
-.drawerBtns {
-  width: -webkit-fill-available;
+.dropdownBtns a:hover {
+  color: #ffffff;
 }
 
 .landingPageCard a {
+  padding: 0px;
   font-size: larger;
+  color: #333333;
   @apply rounded-l-none;
+}
+
+.landingPageCard a:hover {
+  color: #ffffff;
 }
 
 .wrapper {
@@ -105,6 +116,28 @@
 .connectBtn:hover {
   background: #20b2aa;
   -webkit-text-fill-color: #ffffff;
+}
+
+.aboutMeContainer {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.aboutMeAside {
+  display: block;
+  position: sticky;
+  top: 64px;
+  margin-left: 8rem;
+}
+
+.aboutMeArticle {
+  max-width: min(44rem, 100%);
 }
 
 /* Stars */

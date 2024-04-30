@@ -14,7 +14,7 @@ export default function Home() {
       <div className="w-full">
         <div className="profilePic">
           <Image
-            className="flex-none border-accent border-2 rounded-full"
+            className="flex-none border-secondary border-2 rounded-full"
             alt="profile pic"
             src="/profPic.webp"
             width={320}

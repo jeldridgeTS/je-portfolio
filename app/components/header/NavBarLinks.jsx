@@ -9,7 +9,7 @@ export default function NavBarLinks() {
   return (
     <div className="flex flex-row place-content-end">
       <a
-        className="connectBtn btn btn-accent btn-outline rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
+        className="connectBtn btn btn-secondary btn-outline rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
         href="mailto:james.eldridge@mail.com"
         target="#"
       >

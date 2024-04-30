@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       >
         <div className="w-full mx-auto max-w-min lg:max-w-6xl">
           <Header />
-          <div className="pt-20 pb-20 bg-base-100 min-h-screen w-full text-center">
+          <div className="pt-16 pb-16 bg-base-100 min-h-screen w-full text-center">
             {children}
           </div>
         </div>
