@@ -107,6 +107,28 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.aboutMeContainer {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.aboutMeAside {
+  display: block;
+  position: sticky;
+  top: 64px;
+  margin-left: 8rem;
+}
+
+.aboutMeArticle {
+  max-width: min(44rem, 100%);
+}
+
 /* Stars */
 /* <a href="https://www.flaticon.com/free-icons/customer-experience" title="customer experience icons">Customer experience icons created by Hilmy Abiyyu A. - Flaticon</a> */
 
