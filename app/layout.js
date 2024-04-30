@@ -12,11 +12,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="lighttheme">
-      <body className={rubik.className}>
-        <Header />
-        <div className="px-20 pb-20 pt-20 contentBg min-h-screen w-full">
-          {children}
+    <html lang="en" data-theme="darktheme">
+      <body
+        className={`${rubik.className} flex flex-col justify-center items-center`}
+      >
+        <div className="w-full mx-auto max-w-min lg:max-w-6xl">
+          <Header />
+          <div className="pt-20 pb-20 bg-base-100 min-h-screen w-full text-center">
+            {children}
+          </div>
         </div>
         <Footer />
       </body>

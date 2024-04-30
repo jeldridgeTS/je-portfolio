@@ -3,16 +3,16 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        lighttheme: {
-          primary: "#fa8072",
-          secondary: "#add8e6",
-          accent: "#0081ff",
-          neutral: "#180806",
-          "base-100": "#fef3c7",
-          info: "#20b2aa",
-          success: "#00ffc7",
-          warning: "#ffc100",
-          error: "#ff7a85",
+        darktheme: {
+          primary: "#00ADB5",
+          secondary: "#FF5722",
+          accent: "#FFC522",
+          neutral: "#EEEEEE",
+          "base-100": "#303841",
+          info: "#0095e3",
+          success: "#65c400",
+          warning: "#f8b700",
+          error: "#ff7982",
         },
       },
       "dark",

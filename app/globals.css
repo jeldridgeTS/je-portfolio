@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav {
-  background-color: cornsilk;
-}
-
 .navbar {
   @apply p-0;
   @apply min-h-20;
@@ -16,22 +12,8 @@
   @apply pb-0;
 }
 
-.profileContainer {
+.profilePic {
   text-align: -webkit-center;
-}
-
-.profileContainer img {
-  border-color: lightblue;
-}
-
-.contentBg {
-  background-color: cornsilk;
-}
-
-.nameButton {
-  font: 16px Arial;
-  color: white;
-  background-color: salmon;
 }
 
 /* .borderGrad {
@@ -49,12 +31,15 @@
     1;
 } */
 
+/* .navPad {
+  padding-left: 28.5rem;
+  padding-right: 29rem;
+} */
+
 .navLinksButton {
   width: 120px;
   font-size: x-large;
-  color: white;
-  background: salmon;
-  background: linear-gradient(to bottom, salmon 50%, lightblue 50%) top;
+  background: linear-gradient(to bottom, #ff5722 50%, #00adb5 50%) top;
   background-size: 100% 200%;
   transition: 0.15s ease-out;
 }
@@ -83,12 +68,9 @@
   width: -webkit-fill-available;
 }
 
-.landingPageCard {
-  background-color: salmon;
-}
-
 .landingPageCard a {
   font-size: larger;
+  @apply rounded-l-none;
 }
 
 .wrapper {
