@@ -5,7 +5,7 @@ module.exports = {
       {
         darktheme: {
           primary: "#00ADB5",
-          secondary: "#FF5722",
+          secondary: "#FF22CB",
           accent: "#FFC522",
           neutral: "#EEEEEE",
           "base-100": "#303841",

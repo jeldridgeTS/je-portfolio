@@ -19,7 +19,7 @@
 .navLinksButton {
   width: 120px;
   font-size: x-large;
-  background: linear-gradient(to bottom, #ff5722 50%, #00adb5 50%) top;
+  background: linear-gradient(to bottom, #ffc522 50%, #00adb5 50%) top;
   background-size: 100% 200%;
   transition: 0.15s ease-out;
 }
@@ -49,8 +49,14 @@
 }
 
 .landingPageCard a {
+  padding: 0px;
   font-size: larger;
+  color: #333333;
   @apply rounded-l-none;
+}
+
+.landingPageCard a:hover {
+  color: #ffffff;
 }
 
 .wrapper {
