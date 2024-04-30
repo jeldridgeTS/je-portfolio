@@ -16,26 +16,6 @@
   text-align: -webkit-center;
 }
 
-/* .borderGrad {
-  border-radius: 50%;
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  border-image: linear-gradient(
-      to right,
-      #83c59b,
-      #fcf09a,
-      red,
-      purple,
-      #71caee
-    )
-    1;
-} */
-
-/* .navPad {
-  padding-left: 28.5rem;
-  padding-right: 29rem;
-} */
-
 .navLinksButton {
   width: 120px;
   font-size: x-large;
