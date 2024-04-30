@@ -8,12 +8,13 @@ import AboutMeButton from "@components/buttons/AboutMeButton";
 export default function NavBarLinks() {
   return (
     <div className="flex flex-row place-content-end">
-      <Link
+      <a
         className="connectBtn btn btn-accent btn-outline rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
-        href="aboutme"
+        href="mailto:james.eldridge@mail.com"
+        target="#"
       >
         LET'S CONNECT
-      </Link>
+      </a>
       <figure className="self-center pl-4">
         <div
           className="dropdown dropdown-bottom dropdown-end"
