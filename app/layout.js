@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${rubik.className} flex flex-col justify-center items-center`}
       >
-        <div className="w-full mx-auto max-w-min lg:max-w-6xl">
+        <div className="w-full">
           <Header />
-          <div className="pt-16 pb-16 bg-base-100 min-h-screen w-full text-center">
-            {children}
+          <div className="pt-16 pb-16 bg-base-300 min-h-screen w-full text-center">
+            <div className="flex lg:max-w-6xl mx-auto">{children}</div>
           </div>
         </div>
         <Footer />
