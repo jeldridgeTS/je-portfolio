@@ -6,12 +6,13 @@ import SocialLinks from "@components/socialLinks/SocialLinks";
 
 export default function NavBar() {
   return (
-    <nav className="nav flex justify-center pt-6 px-6 lg:px-0">
-      <div className="w-full navbar flex-1">
-        <div className="flex-1 h-full lg:pl-12">
-          <NameButton />
+    <nav className="nav flex pt-6 mt-8">
+      <div className="w-full navbar justify-between">
+        <NameButton />
+        <div className="hidden lg:block">
+          <SocialLinks />
         </div>
-        <div className="flex-1 hidden lg:block pr-5">
+        <div className="hidden lg:block">
           <NavBarLinks />
         </div>
         <div className="flex-none lg:hidden">

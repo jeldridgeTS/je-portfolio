@@ -4,44 +4,40 @@ import Image from "next/image";
 import LandingXpCard from "@components/landingPage/LandingXpCard";
 import LandingProjectsCard from "@components/landingPage/LandingProjectsCard";
 import LandingAboutCard from "@components/landingPage/LandingAboutCard";
-import SocialLinks from "@components/socialLinks/SocialLinks";
 import { Rubik } from "next/font/google";
 
-const rubik700 = Rubik({ weight: "700", variable: true, subsets: ["latin"] });
+const rubik400 = Rubik({ weight: "400", variable: true, subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flex justify-center">
-      <div>
-        <div className="profileContainer">
+    <div className="flex">
+      <div className="w-full">
+        <div className="profilePic">
           <Image
-            className="flex-none border-double border-8 rounded-full"
+            className="flex-none border-primary border-2 rounded-full"
             alt="profile pic"
             src="/profPic.webp"
             width={320}
             height={320}
           />
-          <div className="pt-6">
-            <SocialLinks />
-          </div>
-          <div
-            className={`${rubik700.className} text-center pt-6 pb-2`}
-            style={{ color: "grey" }}
-          >
-            James Eldridge does stuff with code to make things and it's fun!
-          </div>
-          <div
-            className="text-center pt-2 pb-12"
-            style={{ color: "slategrey" }}
-          >
-            Here's some things he does with code like Node.js, Javascript,
-            React, and he likes his doggo.
-          </div>
         </div>
-        <div className="flex flex-col items-center lg:flex-row gap-4">
+        <div className="flex flex-col items-center justify-center lg:flex-row gap-4 py-14">
           <LandingXpCard />
           <LandingProjectsCard />
           <LandingAboutCard />
+        </div>
+        <div className="text-center">
+          <div
+            className={`${rubik400.className} text-neutral text-center text-xl`}
+          >
+            James Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
         </div>
       </div>
     </div>

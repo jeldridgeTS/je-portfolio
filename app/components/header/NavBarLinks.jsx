@@ -9,17 +9,18 @@ export default function NavBarLinks() {
   return (
     <div className="flex flex-row place-content-end">
       <Link
-        className="connectBtn btn btn-info btn-outline rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
+        className="connectBtn btn btn-accent btn-outline rounded-full self-center h-full no-animation shadow-none border-2 font-semibold"
         href="aboutme"
       >
         LET'S CONNECT
       </Link>
-      <figure className="self-center px-4">
+      <figure className="self-center pl-4">
         <div
           className="dropdown dropdown-bottom dropdown-end"
           style={{ display: "block" }}
         >
           <Image
+            className="text-primary"
             role="button"
             tabIndex={0}
             src={dots}
