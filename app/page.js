@@ -5,6 +5,9 @@ import LandingXpCard from "@components/landingPage/LandingXpCard";
 import LandingProjectsCard from "@components/landingPage/LandingProjectsCard";
 import LandingAboutCard from "@components/landingPage/LandingAboutCard";
 import SocialLinks from "@components/socialLinks/SocialLinks";
+import { Rubik } from "next/font/google";
+
+const rubik700 = Rubik({ weight: "700", variable: true, subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -21,11 +24,18 @@ export default function Home() {
           <div className="pt-6">
             <SocialLinks />
           </div>
-          <div className="text-center pt-6 pb-2 font-bold text-lg">
-            Stuff about me blah blah blah blah blah blah
+          <div
+            className={`${rubik700.className} text-center pt-6 pb-2`}
+            style={{ color: "grey" }}
+          >
+            James Eldridge does stuff with code to make things and it's fun!
           </div>
-          <div className="text-center pt-2 pb-12">
-            Stuff about me blah blah blah blah blah blah
+          <div
+            className="text-center pt-2 pb-12"
+            style={{ color: "slategrey" }}
+          >
+            Here's some things he does with code like Node.js, Javascript,
+            React, and he likes his doggo.
           </div>
         </div>
         <div className="flex flex-col items-center lg:flex-row gap-4">

@@ -76,6 +76,7 @@
   width: 100%;
   border-radius: 0%;
   padding: 0px;
+  font-size: large;
 }
 
 .drawerBtns {
@@ -84,6 +85,10 @@
 
 .landingPageCard {
   background-color: salmon;
+}
+
+.landingPageCard a {
+  font-size: larger;
 }
 
 .wrapper {
