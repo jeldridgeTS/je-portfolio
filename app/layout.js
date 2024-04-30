@@ -1,9 +1,9 @@
 import "./globals.css";
-import { Cabin } from "next/font/google";
+import { Rubik } from "next/font/google";
 import Header from "@components/header";
 import Footer from "@components/footer/Footer";
 
-const cabin = Cabin({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="lighttheme">
-      <body className={cabin.className}>
+      <body className={rubik.className}>
         <Header />
         <div className="px-20 pb-20 pt-20 contentBg min-h-screen w-full">
           {children}

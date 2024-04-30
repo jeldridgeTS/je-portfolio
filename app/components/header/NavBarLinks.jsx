@@ -1,6 +1,9 @@
 import Link from "next/link";
 import dots from "/public/dots-horizontal.svg";
 import Image from "next/image";
+import ExperienceButton from "@components/buttons/ExperienceButton";
+import ProjectsButton from "@components/buttons/ProjectsButton";
+import AboutMeButton from "@components/buttons/AboutMeButton";
 
 export default function NavBarLinks() {
   return (
@@ -26,16 +29,16 @@ export default function NavBarLinks() {
           />
           <ul
             tabIndex={0}
-            className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 mt-3"
+            className="dropdown-content dropdownContainer z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 mt-3"
           >
-            <li>
-              <Link href="/">Experience</Link>
+            <li className="dropdownBtns">
+              <ExperienceButton />
             </li>
-            <li>
-              <Link href="/">Projects</Link>
+            <li className="dropdownBtns">
+              <ProjectsButton />
             </li>
-            <li>
-              <Link href="/">About Me</Link>
+            <li className="dropdownBtns">
+              <AboutMeButton />
             </li>
           </ul>
         </div>

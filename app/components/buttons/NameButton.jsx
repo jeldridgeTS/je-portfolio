@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { Lobster } from "next/font/google";
+import { Rubik } from "next/font/google";
 
-const lobster = Lobster({ weight: "400", subsets: ["latin"] });
+const rubik = Rubik({ weight: "900", subsets: ["latin"] });
 
-const classes = `text-4xl self-center no-animation ${lobster.className}`;
+const classes = `text-4xl self-center no-animation ${rubik.className}`;
 
 const NameButton = () => {
   return (
