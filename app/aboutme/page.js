@@ -7,7 +7,7 @@ const classes = `py-16 text-accent text-6xl self-center no-animation ${rubik.cla
 
 export default function AboutMe() {
   return (
-    <>
+    <div className="w-full">
       <h1 className={classes}>About Me</h1>
       <div className="aboutMeContainer">
         <aside className="aboutMeAside">
@@ -99,6 +99,6 @@ export default function AboutMe() {
           </p>
         </article>
       </div>
-    </>
+    </div>
   );
 }
