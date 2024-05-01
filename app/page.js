@@ -25,7 +25,7 @@ export default function Home() {
         <LandingProjectsCard />
         <LandingAboutCard />
       </div>
-      <div className="text-center">
+      <div className="text-center px-8 lg:px-0">
         <div
           className={`${rubik400.className} text-neutral text-center text-xl`}
         >

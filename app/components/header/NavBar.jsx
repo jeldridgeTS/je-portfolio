@@ -6,7 +6,7 @@ import SocialLinks from "@components/socialLinks/SocialLinks";
 
 export default function NavBar() {
   return (
-    <nav className="nav flex pt-6 pb-6 lg:max-w-6xl mx-auto">
+    <nav className="nav flex pt-6 pb-6 px-8 lg:max-w-6xl lg:px-0 mx-auto">
       <div className="w-full navbar justify-between">
         <NameButton />
         <div className="hidden lg:block">

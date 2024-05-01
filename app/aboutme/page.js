@@ -10,7 +10,7 @@ export default function AboutMe() {
     <div className="w-full">
       <h1 className={classes}>About Me</h1>
       <div className="aboutMeContainer">
-        <aside className="aboutMeAside">
+        <aside className="hidden lg:block aboutMeAside">
           <nav>
             <ul>
               <li>
@@ -32,7 +32,7 @@ export default function AboutMe() {
           </nav>
         </aside>
         <article
-          className={`${rubik400.className} text-neutral text-left text-xl aboutMeArticle`}
+          className={`${rubik400.className} text-neutral text-left text-xl aboutMeArticle px-8 lg:pl-0`}
         >
           <p className="mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

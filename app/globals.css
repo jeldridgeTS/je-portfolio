@@ -130,7 +130,7 @@
 }
 
 .aboutMeAside {
-  display: block;
+  /* display: block; */
   position: sticky;
   top: 64px;
   margin-left: 8rem;
