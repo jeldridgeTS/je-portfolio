@@ -130,10 +130,10 @@
 }
 
 .aboutMeAside {
-  /* display: block; */
   position: sticky;
   top: 64px;
   margin-left: 8rem;
+  text-align: left;
 }
 
 .aboutMeArticle {
