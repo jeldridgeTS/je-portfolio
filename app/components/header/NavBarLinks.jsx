@@ -6,6 +6,11 @@ import ProjectsButton from "@components/buttons/ProjectsButton";
 import AboutMeButton from "@components/buttons/AboutMeButton";
 
 export default function NavBarLinks() {
+  const handleClick = () => {
+    const elem = document.activeElement;
+    elem && elem?.blur();
+  };
+
   return (
     <div className="flex flex-row place-content-end">
       <a
@@ -33,13 +38,13 @@ export default function NavBarLinks() {
             tabIndex={0}
             className="dropdown-content dropdownContainer z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 mt-3"
           >
-            <li className="dropdownBtns">
+            <li onClick={handleClick} className="dropdownBtns">
               <ExperienceButton />
             </li>
-            <li className="dropdownBtns">
+            <li onClick={handleClick} className="dropdownBtns">
               <ProjectsButton />
             </li>
-            <li className="dropdownBtns">
+            <li onClick={handleClick} className="dropdownBtns">
               <AboutMeButton />
             </li>
           </ul>

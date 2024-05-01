@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="drawer drawer-end">
+    <div className="drawer drawer-end lg:max-w-6xl mx-auto">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">
         <NavBar />
