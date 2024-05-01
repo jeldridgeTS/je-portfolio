@@ -140,6 +140,46 @@
   max-width: min(44rem, 100%);
 }
 
+.aboutMeArticle p {
+  word-spacing: 0.125rem;
+  margin-bottom: 8rem;
+}
+
+.aboutMeArticle h1 {
+  padding-bottom: 1.5rem;
+  color: #8fbc8f;
+}
+
+.aboutMeArticle h2 {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  font-weight: bolder;
+  color: peru;
+  text-transform: uppercase;
+}
+
+.aboutMeArticle h3 {
+  padding-bottom: 2rem;
+  color: peachpuff;
+  font-style: italic;
+}
+
+.aboutMeArticle ul > li {
+  padding-bottom: 2rem;
+}
+
+.aboutMeArticle ul > li > span {
+  color: mediumvioletred;
+}
+
+.workExp {
+  margin-bottom: 8rem;
+}
+
+.workExp p {
+  margin-bottom: 4rem;
+}
+
 /* Stars */
 /* <a href="https://www.flaticon.com/free-icons/customer-experience" title="customer experience icons">Customer experience icons created by Hilmy Abiyyu A. - Flaticon</a> */
 
