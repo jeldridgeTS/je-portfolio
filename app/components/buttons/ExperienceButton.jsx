@@ -8,7 +8,7 @@ const ExperienceButton = ({ ...props }) => {
   console.log(props);
 
   return (
-    <NavButton {...props} href="projects">
+    <NavButton {...props} href="experience">
       Experience
     </NavButton>
   );
