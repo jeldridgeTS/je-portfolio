@@ -4,39 +4,52 @@ import Link from "next/link";
 
 const rubik400 = Rubik({ weight: "400", variable: true, subsets: ["latin"] });
 const rubikHeading = Rubik({ weight: "900", subsets: ["latin"] });
-const classes = `pt-16 pb-24 text-accent text-6xl self-center no-animation ${rubikHeading.className}`;
+const titleClasses = `pt-16 pb-24 text-accent text-6xl self-center no-animation ${rubikHeading.className}`;
 const h1Classes = `leading-none pb-6 text-info text-3xl self-center ${rubikHeading.className}`;
 
 export default function Experience() {
   return (
     <div className="w-full">
-      <h1 className={classes}>Experience</h1>
+      <h1 className={titleClasses}>Experience</h1>
       <div className="aboutMeContainer xpText">
         <aside className="hidden lg:block aboutMeAside">
           <nav>
-            <ul>
-              <li>
-                <h2>Table of Contents</h2>
-              </li>
-              <li>
-                <Link href="/">Something 1</Link>
-              </li>
-              <li>
-                <Link href="/">Something 2</Link>
-              </li>
-              <li>
-                <Link href="/">Something 3</Link>
-              </li>
-              <li>
-                <Link href="/">Something 4</Link>
-              </li>
+            <ul className="gap-4 grid grid-cols-1">
+              <Link className="text-info" href="#summary">
+                Summary of Qualifications
+              </Link>
+              <Link className="text-info" href="#profExp">
+                Professional Experience
+              </Link>
+              <Link
+                className="pl-4"
+                href="#shutterstock"
+                style={{ color: "peru" }}
+              >
+                ShutterStock
+              </Link>
+              <Link
+                className="pl-4"
+                href="#turbosquid"
+                style={{ color: "peru" }}
+              >
+                TurboSquid
+              </Link>
+              <Link className="text-info" href="#education">
+                Education
+              </Link>
+              <Link className="text-info" href="#skills">
+                Additional Skill
+              </Link>
             </ul>
           </nav>
         </aside>
         <article
           className={`${rubik400.className} text-neutral text-left text-xl aboutMeArticle px-8 lg:pl-0`}
         >
-          <h1 className={`${h1Classes}`}>Summary of Qualifications</h1>
+          <h1 id="summary" className={`${h1Classes}`}>
+            Summary of Qualifications
+          </h1>
           <p className="tracking-wide">
             Experienced Software and Automation Engineer with more than 10 years
             experience in software development and automated testing.
@@ -49,9 +62,11 @@ export default function Experience() {
             ensuring thorough testing practices across all layers of the
             application.
           </p>
-          <h1 className={h1Classes}>Professional Experience</h1>
+          <h1 id="profExp" className={h1Classes}>
+            Professional Experience
+          </h1>
           <div className="workExp mb-32">
-            <h2>ShutterStock, Inc.</h2>
+            <h2 id="shutterstock">ShutterStock, Inc.</h2>
             <h3>Software Engineer I - January 2023 – January 2024</h3>
             <p>
               <ul>
@@ -73,7 +88,7 @@ export default function Experience() {
                 </li>
               </ul>
             </p>
-            <h2>TurboSquid</h2>
+            <h2 id="turbosquid">TurboSquid</h2>
             <h3>June 2013 – January 2023</h3>
             <p>
               <ul>
@@ -102,7 +117,9 @@ export default function Experience() {
               </ul>
             </p>
           </div>
-          <h1 className={h1Classes}>Education</h1>
+          <h1 id="education" className={h1Classes}>
+            Education
+          </h1>
           <h2>Collins College - Phoenix, AZ</h2>
           <h3>Bachelor of Arts in Game Development</h3>
           <p>
@@ -116,7 +133,9 @@ export default function Experience() {
             senectus et. Eget egestas purus viverra accumsan in nisl nisi
             scelerisque eu.
           </p>
-          <h1 className={h1Classes}>Additional Skills</h1>
+          <h1 id="skills" className={h1Classes}>
+            Additional Skills
+          </h1>
           <div className="overflow-x-auto pt-6">
             <table className="table">
               {/* head */}
