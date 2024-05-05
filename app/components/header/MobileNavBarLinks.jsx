@@ -1,5 +1,3 @@
-"use client";
-
 import ProjectsButton from "@components/buttons/ProjectsButton";
 import AboutMeButton from "@components/buttons/AboutMeButton";
 import ExperienceButton from "@components/buttons/ExperienceButton";

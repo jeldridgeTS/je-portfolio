@@ -1,5 +1,3 @@
-"use client";
-
 import NameButton from "@components/buttons/NameButton";
 import NavBarLinks from "./NavBarLinks";
 import SocialLinks from "@components/socialLinks/SocialLinks";

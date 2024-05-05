@@ -1,3 +1,5 @@
+"use client";
+
 import MobileNavBarLinks from "./MobileNavBarLinks";
 import NavBar from "./NavBar";
 
