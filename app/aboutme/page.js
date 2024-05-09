@@ -10,27 +10,6 @@ export default function AboutMe() {
     <div className="w-full">
       <h1 className={classes}>About Me</h1>
       <div className="aboutMeContainer">
-        <aside className="hidden lg:block aboutMeAside">
-          <nav>
-            <ul>
-              <li>
-                <h2>Table of Contents</h2>
-              </li>
-              <li>
-                <Link href="/">Something 1</Link>
-              </li>
-              <li>
-                <Link href="/">Something 2</Link>
-              </li>
-              <li>
-                <Link href="/">Something 3</Link>
-              </li>
-              <li>
-                <Link href="/">Something 4</Link>
-              </li>
-            </ul>
-          </nav>
-        </aside>
         <article
           className={`${rubik400.className} text-neutral text-left text-xl aboutMeArticle px-8 lg:pl-0`}
         >

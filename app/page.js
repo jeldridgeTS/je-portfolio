@@ -29,13 +29,13 @@ export default function Home() {
         <div
           className={`${rubik400.className} text-neutral text-center text-xl`}
         >
-          James Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Experienced Software and Automation Engineer with more than 10 years
+          experience in software development and automated testing. Proficient
+          in both front-end and back-end development, including Ruby, CI/CD
+          pipelines, JavaScript, Typescript, and Node.js. Actively seeking roles
+          to contribute as a software engineer, focusing on building robust and
+          maintainable solutions while ensuring thorough testing practices
+          across all layers of the application.
         </div>
       </div>
     </div>
