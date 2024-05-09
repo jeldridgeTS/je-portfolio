@@ -1,5 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Rubik } from "next/font/google";
-import Link from "next/link";
 
 const rubik400 = Rubik({ weight: "400", variable: true, subsets: ["latin"] });
 const rubik = Rubik({ weight: "900", subsets: ["latin"] });
@@ -14,67 +14,44 @@ export default function AboutMe() {
           className={`${rubik400.className} text-neutral text-left text-xl aboutMeArticle px-8 lg:pl-0`}
         >
           <p className="mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae
-            tortor condimentum lacinia quis vel. Sem nulla pharetra diam sit.
-            Donec enim diam vulputate ut. Praesent semper feugiat nibh sed.
-            Donec ac odio tempor orci. Morbi quis commodo odio aenean sed
-            adipiscing diam donec adipiscing. Amet tellus cras adipiscing enim
-            eu turpis egestas pretium aenean. Augue neque gravida in fermentum
-            et sollicitudin. Dolor sed viverra ipsum nunc aliquet. Nec nam
-            aliquam sem et tortor consequat id. Feugiat scelerisque varius morbi
-            enim nunc.
+            I'm a software developer based in New Orleans, on the lookout for my
+            next adventure and open to relocation. I kicked off my career in
+            game development before shifting gears into an SDET role at
+            TurboSquid. One of the highlights was revamping their automated
+            testing project, transitioning it from Java to Ruby and tackling the
+            challenges that came my way. Working at TurboSquid was a blast; I
+            loved the startup vibe and the tight-knit community of a small to
+            mid-sized company. Plus, I made some great friends among my
+            colleagues. My tech toolkit includes Ruby, RSpec, CI/CD, Selenium,
+            and full-stack development.
           </p>
           <p className="mb-8">
-            Congue mauris rhoncus aenean vel elit scelerisque mauris. Id leo in
-            vitae turpis massa sed. Turpis egestas pretium aenean pharetra magna
-            ac placerat. Varius duis at consectetur lorem. Purus faucibus ornare
-            suspendisse sed nisi lacus sed viverra. Ipsum faucibus vitae aliquet
-            nec ullamcorper sit. Mauris commodo quis imperdiet massa. Sed
-            elementum tempus egestas sed. Vulputate sapien nec sagittis aliquam
-            malesuada bibendum arcu. Consectetur lorem donec massa sapien
-            faucibus et molestie. Netus et malesuada fames ac turpis egestas.
-            Vitae et leo duis ut. Ac turpis egestas maecenas pharetra convallis
-            posuere morbi. Quis auctor elit sed vulputate mi sit amet. Eget sit
-            amet tellus cras adipiscing enim eu. Vivamus arcu felis bibendum ut
-            tristique. Dignissim enim sit amet venenatis urna. Nulla at volutpat
-            diam ut. Rhoncus urna neque viverra justo nec ultrices dui. Ut morbi
-            tincidunt augue interdum velit.
+            When Shutterstock acquired TurboSquid in 2020, I got bumped up to a
+            software engineer gig, diving into their flagship app. Though there
+            was a bit of a culture shift moving to a smaller, close-knit setup,
+            I quickly got pumped about joining the utilization and retention
+            crew. It was a chance to dive into a fresh tech stack and soak up
+            all the growth opportunities it offered. My toolbox included
+            Node.js, Next.js, JavaScript, Jest, Playwright, React, and Jenkins.
           </p>
           <p className="mb-8">
-            A pellentesque sit amet porttitor. Vestibulum morbi blandit cursus
-            risus at ultrices mi tempus. Gravida arcu ac tortor dignissim
-            convallis aenean et. Dignissim diam quis enim lobortis scelerisque
-            fermentum dui faucibus. Sed cras ornare arcu dui vivamus arcu. Justo
-            nec ultrices dui sapien. Non tellus orci ac auctor augue mauris.
-            Eros donec ac odio tempor orci dapibus. Ac tortor vitae purus
-            faucibus ornare suspendisse sed nisi lacus. Quis ipsum suspendisse
-            ultrices gravida dictum fusce ut. Amet consectetur adipiscing elit
-            pellentesque habitant.
+            Acquisitions often mean not everyone from the acquired company
+            sticks around. So, with the layoffs, I'm gearing up for the next
+            chapter in my career. I'm excited to enhance my skills, diving
+            deeper into JavaScript, React, and backend tech.
           </p>
           <p className="mb-8">
-            Placerat orci nulla pellentesque dignissim enim sit. Laoreet non
-            curabitur gravida arcu ac tortor dignissim. Sit amet porttitor eget
-            dolor morbi. Blandit massa enim nec dui nunc. In metus vulputate eu
-            scelerisque. Urna nec tincidunt praesent semper feugiat nibh sed
-            pulvinar proin. Porttitor eget dolor morbi non arcu. Ut diam quam
-            nulla porttitor massa id neque. Tempus quam pellentesque nec nam
-            aliquam sem et tortor. Sapien pellentesque habitant morbi tristique
-            senectus et. Eget egestas purus viverra accumsan in nisl nisi
-            scelerisque eu.
+            When I'm not at work, you'll often find me at the local Nola Hack
+            nights and meetups, immersing myself in the vibrant tech community.
+            I love spending time training my Rat Terrier/Australian Shepherd mix
+            (recent DNA tests debunked her supposed Beagle heritage) to learn
+            new tricks. Additionally, I've recently taken up running with a
+            local Hash House group, specifically the Voodoo Hash House Harriers.
           </p>
           <p className="mb-8">
-            Venenatis urna cursus eget nunc scelerisque viverra. Enim diam
-            vulputate ut pharetra. Vitae purus faucibus ornare suspendisse sed.
-            Auctor elit sed vulputate mi sit amet mauris. Semper feugiat nibh
-            sed pulvinar proin gravida hendrerit lectus a. Suspendisse ultrices
-            gravida dictum fusce ut placerat orci. Aliquet enim tortor at
-            auctor. Porttitor massa id neque aliquam vestibulum morbi blandit
-            cursus risus. Tortor at risus viverra adipiscing at in. Auctor eu
-            augue ut lectus arcu bibendum at. Ipsum faucibus vitae aliquet nec
-            ullamcorper sit. Aliquam sem et tortor consequat id. Lacus
-            vestibulum sed arcu non odio euismod lacinia at. Dictum sit amet
-            justo donec.
+            As I look to the future, I remain committed to continuous learning
+            and professional development, eager to tackle new projects and
+            contribute positively to any team or organization I join.
           </p>
         </article>
       </div>
