@@ -1,4 +1,3 @@
-import Link from "next/link";
 import dots from "/public/dots-horizontal.svg";
 import Image from "next/image";
 import ExperienceButton from "@components/buttons/ExperienceButton";
@@ -6,6 +5,8 @@ import ProjectsButton from "@components/buttons/ProjectsButton";
 import AboutMeButton from "@components/buttons/AboutMeButton";
 
 export default function NavBarLinks() {
+  const letsConnect = "LET'S CONNECT";
+
   const handleClick = () => {
     const elem = document.activeElement;
     elem && elem?.blur();
@@ -18,7 +19,7 @@ export default function NavBarLinks() {
         href="mailto:james.eldridge@mail.com"
         target="#"
       >
-        LET'S CONNECT
+        {letsConnect}
       </a>
       <figure className="self-center pl-4">
         <div
